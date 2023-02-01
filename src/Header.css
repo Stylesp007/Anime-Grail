@@ -1,0 +1,52 @@
+@font-face {
+  font-family: imported;
+  src: url('./assets/Font/Kwokwi.otf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: imported;
+  src: url('./assets/Font/Kwokwi.otf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: imported;
+  src: url('./assets/Font/Kwokwi.otf');
+  font-weight: 400;
+}
+
+.Header{
+  font-family: 'imported', cursive;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.5rem;
+}
+#backdrop{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.75);
+  z-index: 10;
+  pointer-events: none;
+  display: none;
+}
+#backdrop.visible {
+  display: block;
+  pointer-events: all;
+}
+.right-header{
+  
+  display: flex;
+  margin-right: 17px;
+  padding: 0 2.5rem;
+}
+
+.right-header > h3{
+  margin-right: 57px;
+  cursor: pointer;
+}
+
