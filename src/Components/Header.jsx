@@ -14,7 +14,7 @@ export default function Header() {
     <header className="Header">
       <h1>Anime Grail</h1>
       <div className="right-header">
-        <Button onClick={handleOpen}>Watchlist</Button>
+        <h3 onClick={handleOpen}>Watchlist</h3>
         <h3 onClick={()=>console.log('favorites clicks')}>favorites</h3>
         <h3 onClick={()=>console.log('recomendations clicks')}>Recomendations</h3>
       </div>
