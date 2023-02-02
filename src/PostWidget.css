@@ -1,0 +1,14 @@
+img{
+  max-width: 25%;
+  height: auto;
+}
+
+
+.right-container {
+  background-color: lightblue;
+  position: fixed;
+  height: 100%;
+  margin-left: 75%;
+  margin-bottom: 1000px;
+  padding-bottom: 500px;
+}

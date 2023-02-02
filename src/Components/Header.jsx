@@ -26,7 +26,7 @@ export default function Header() {
          backdrop="static"
          >
          <Modal.Header>
-             GeeksforGeeks
+             Watchlist +
          </Modal.Header>
          <Modal.Body>
              <p>
