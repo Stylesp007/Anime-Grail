@@ -1,14 +1,51 @@
-img{
-  max-width: 25%;
-  height: auto;
+@font-face {
+  font-family: imported;
+  src: url('./assets/Font/Kwokwi.otf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: imported;
+  src: url('./assets/Font/Kwokwi.otf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: imported;
+  src: url('./assets/Font/Kwokwi.otf');
+  font-weight: 400;
 }
 
+.website{
+  border-style: outset;
+  padding: 10px 50px 20px;
+  margin: 10px 50px 20px;
+}
 
-.right-container {
-  background-color: lightblue;
-  position: fixed;
-  height: 100%;
-  margin-left: 75%;
-  margin-bottom: 1000px;
-  padding-bottom: 500px;
+img{
+  width: 55px;
+  height: 55px;
+}
+.FS-h3{
+  padding: 15px;
+  margin-bottom: 3px;
+}
+.Featured-posts{
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+.right-container{
+  font-family: 'imported', cursive;
+  border-style: outset;
+  margin-left: 73%;
+  margin-right: 17px;
+  padding: 7px;
+}
+
+.post-info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  
+  padding-bottom: 14px;
 }

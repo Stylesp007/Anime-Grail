@@ -10,10 +10,12 @@ function App() {
   
 
   return (
-    <>
-    <Header />
-    <PostWidget />
-    </>
+    <div>
+      <div className="website">
+        <Header />
+        <PostWidget />
+      </div>
+    </div>
   )
 }
 

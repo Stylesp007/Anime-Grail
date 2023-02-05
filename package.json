@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "puppeteer": "^19.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rsuite": "^5.25.0"
@@ -18,5 +19,18 @@
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react": "^3.0.0",
     "vite": "^4.0.0"
-  }
+  },
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stylesp007/Anime-Grail.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stylesp007/Anime-Grail/issues"
+  },
+  "homepage": "https://github.com/Stylesp007/Anime-Grail#readme",
+  "description": ""
 }
