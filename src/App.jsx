@@ -1,8 +1,9 @@
-import Header from "./Components/Header"
-import './Header.css'
-import './PostWidget.css'
-import '../node_modules/rsuite/dist/rsuite.min.css';
+import Header from "./Components/Header";
 import PostWidget from "./Components/PostWidget";
+import ContentFeed from "./Components/ContentFeed";
+import './Header.css';
+import './PostWidget.css';
+import '../node_modules/rsuite/dist/rsuite.min.css';
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <div>
       <div className="website">
         <Header />
+        <ContentFeed />
         <PostWidget />
       </div>
     </div>

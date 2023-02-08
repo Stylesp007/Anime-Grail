@@ -4,7 +4,7 @@
 export default function PostWidget() {
   
 
-  scrapeProduct('https://www.crunchyroll.com/news')
+  
   return (
     <div className="right-container">
       <h3 className="FS-h3">Featured Stories</h3>
